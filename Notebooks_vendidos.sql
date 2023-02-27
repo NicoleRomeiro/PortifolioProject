@@ -1,3 +1,6 @@
+--CONSULTA BASEADA NO VÍDEO Projeto em SQL - Como analisar vendas de notebooks usando SQL
+--LINK: https://www.youtube.com/watch?v=ci3ldv3zd_I&t=623s
+--CANAL: DATA MARKETING
 -- Databricks notebook source
 -- MAGIC %md
 -- MAGIC >**Quais fatores afetam os preços dos computadores portáteis?**
