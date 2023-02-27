@@ -1,4 +1,8 @@
- SELECT * FROM [dbo].[CovidDeaths]
+--PROJETO BASEADO NO VÍDEO 
+--Data Analyst Portfolio Project | SQL Data Exploration | Project 1/4 | https://www.youtube.com/watch?v=qfyynHBFOsM
+--Canal: Alex The Analyst
+
+SELECT * FROM [dbo].[CovidDeaths]
 WHERE continent IS NOT NULL
 ORDER BY 3,4
 
