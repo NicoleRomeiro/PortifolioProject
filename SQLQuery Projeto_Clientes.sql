@@ -7,41 +7,11 @@ SELECT * FROM retencao_por_trimestre
 
 --Excluindo Colunas da tabela retencao_por_mes
 
-ALTER TABLE retencao_por_mes DROP COLUMN [1 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [2 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [3 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [4 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [5 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [6 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [7 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [8 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [9 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [10 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [11 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [12 2019]
-ALTER TABLE retencao_por_mes DROP COLUMN [1 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [2 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [3 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [4 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [5 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [6 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [7 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [8 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [9 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [10 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [11 2020]
-ALTER TABLE retencao_por_mes DROP COLUMN [12 2020]
+ALTER TABLE retencao_por_mes DROP COLUMN [1 2019],[2 2019],[3 2019],[4 2019],[5 2019],[6 2019],[7 2019],[8 2019],[9 2019],[10 2019],[11 2019],[12 2019],[1 2020],[2 2020],[3 2020],[4 2020],[5 2020],[6 2020],[7 2020],[8 2020],[9 2020],[10 2020],[11 2020],[12 2020]
 
 --Excluindo Colunas da tabela retencao_por_trimestre
 
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2019-T1]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2019-T2]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2019-T3]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2019-T4]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2020-T1]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2020-T2]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2020-T3]
-ALTER TABLE retencao_por_trimestre DROP COLUMN [2020-T4]
+ALTER TABLE retencao_por_trimestre DROP COLUMN [2019-T1],[2019-T2],[2019-T3],[2019-T4],[2020-T1],[2020-T2].[2020-T3],[2020-T4]
 
 
 --TABELAS ALTERADAS
