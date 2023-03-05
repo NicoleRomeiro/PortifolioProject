@@ -1,6 +1,6 @@
---ONSULTA BASEADA NO VÕDEO: Data Analyst Portfolio Project | Data Cleaning in SQL | Project 3/4
+--CONSULTA BASEADA NO V√çDEO: Data Analyst Portfolio Project | Data Cleaning in SQL | Project 3/4
 --Link: https://www.youtube.com/watch?v=8rO7ztF4NtU&t=756s	
---C”DIGO DE LIMPEZA DE DADOS
+--C√ìDIGO DE LIMPEZA DE DADOS
 
 SELECT * FROM NashvilleHousing
 
@@ -45,7 +45,7 @@ JOIN NashvilleHousing b
 	AND a.UniqueID <> B.UniqueID
 WHERE a.PropertyAddress IS NULL
 
---DIVIS√O DA COLUNA 'OwnerAddress' EM DIFERENTES COLUNAS (Address, City, State)
+--DIVIS√ÉO DA COLUNA 'OwnerAddress' EM DIFERENTES COLUNAS (Address, City, State)
 
 SELECT PropertyAddress
 FROM NashvilleHousing
@@ -137,7 +137,7 @@ FROM RowNumCTE
 WHERE row_num > 1
 
 
---EXCLUINDO COLUNAS DESNECESS¡RIAS
+--EXCLUINDO COLUNAS DESNECESS√ÅRIAS
 
 ALTER TABLE NashvilleHousing
 DROP COLUMN OwnerAddress,TaxDistrict,PropertyAddress
